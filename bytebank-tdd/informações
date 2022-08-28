@@ -1,0 +1,24 @@
+#todo metodo para testar tem que começar com test e a pasta deve ser tests
+#pytest -v -m calcular_bonus
+#rodar: pytest -v ou pytest
+
+#pytest --markers
+#consultar documentação de markers. Existem markers já padronizados para testes
+#documentação: https://docs.pytest.org/en/stable/how-to/mark.html
+
+#Ataulizar o requirement: >pip freeze > requiriments.txt
+
+#pip install pytest-cov
+#pytest --cov
+#pytest --cov=codigo tests/ --cov-report term-missing
+
+#pytest --cov=codigo tests/ --cov-report html - cria arquivo html
+
+
+cria seu diretótio
+[html]
+directory = coverage_relatorio_html
+
+
+pytest --junitxml report.xml - gera relatótio xml
+pytest --cov-report xml
